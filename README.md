@@ -1,4 +1,5 @@
-# Gerrit Masters
+# Gerrit Masters 
+- Contributors : Gawun Kim, Hae Sung Jeong, Jong Hoon Kim, Junya Honda.
 
 ## How to add a request handler
 
