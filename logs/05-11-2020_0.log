@@ -1,0 +1,17 @@
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <info> : Parsing configuration file...
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <debug> : port is: 8080
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <debug> : url is: /static
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <debug> : handler is: EchoHandler
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <debug> : path is: ../data/static_data
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <info> : EchoHandler Initialized
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <info> : StaticHandler Initialized
+[2020-05-11 22:55:34 UTC] [0x00007f78f469e740] <info> : Server has been started.
+[2020-05-11 22:55:37 UTC] [0x00007f78f469e740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-11 22:55:50 UTC] [0x00007f78f469e740] <info> : Trying to access a file as Static...[IP: 127.0.0.1] 
+[2020-05-11 22:55:50 UTC] [0x00007f78f469e740] <info> : Access Successful.[IP: 127.0.0.1] 
+[2020-05-11 22:55:50 UTC] [0x00007f78f469e740] <info> : Response created successfully.[IP: 127.0.0.1] 
+[2020-05-11 22:55:50 UTC] [0x00007f78f469e740] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-11 22:55:50 UTC] [0x00007f78f469e740] <info> : Request info: method: GET, uri: /index.html[IP: 127.0.0.1] 
+[2020-05-11 22:55:50 UTC] [0x00007f78f469e740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-11 22:55:50 UTC] [0x00007f78f469e740] <info> : Successfully closed connection with a client.

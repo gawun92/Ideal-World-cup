@@ -1,0 +1,164 @@
+[2020-06-11 23:49:24 UTC] [0x00007fa925b29740] <info> : Parsing configuration file...
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <fatal> : Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_END_BLOCK
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : port is: 8080
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /echo
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: EchoHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /static
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: StaticHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /itwc_static
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: StaticHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /status
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: StatusHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /ucla
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: ReverseProxyHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /columbia
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: ReverseProxyHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /health
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: HealthHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : url is: /itwc
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : handler is: ITWCHandler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <info> : Parsing completed, starting server at port number 8080
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: ../data/echo_data
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: ../data/static_data
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: ../data/ITWC
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: 
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <error> : Initialized proxy handler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: 
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <error> : Initialized proxy handler
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: 
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: 
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: ../data/ITWC
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <debug> : Root path: ../data/echo_data
+[2020-06-11 23:49:25 UTC] [0x00007fa925b29740] <info> : Server has been started.
+[2020-06-11 23:49:28 UTC] [0x00007fa9249bf700] <info> : Start session
+[2020-06-11 23:49:28 UTC] [0x00007fa9249bf700] <info> : Connection established with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9249bf700] <info> : Start session
+[2020-06-11 23:49:28 UTC] [0x00007fa9249bf700] <info> : Connection established with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <debug> : START /itwc/html/rank.html
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <info> : Access Successful.
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <debug> : Added 200 to the code map
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <debug> : Added /itwc/html/rank.html to url map
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <info> : This is a valid request.
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <info> : Request info: method: GET, uri: /itwc/html/rank.html
+[2020-06-11 23:49:28 UTC] [0x00007fa9221ba700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <debug> : START /itwc/css/rank.css
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <info> : Access Successful.
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <debug> : Added /itwc/css/rank.css to url map
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <info> : This is a valid request.
+[2020-06-11 23:49:28 UTC] [0x00007fa9211b8700] <info> : Request info: method: GET, uri: /itwc/css/rank.css
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Start session
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Connection established with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : START /itwc/score_map/Game.txt
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Access Successful.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : Added /itwc/score_map/Game.txt to url map
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : This is a valid request.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Request info: method: GET, uri: /itwc/score_map/Game.txt
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9229bb700] <info> : Start session
+[2020-06-11 23:49:28 UTC] [0x00007fa9229bb700] <info> : Connection established with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <debug> : START /itwc/sets/Game/4.jpg
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:28 UTC] [0x00007fa9241be700] <info> : Start session
+[2020-06-11 23:49:28 UTC] [0x00007fa9241be700] <info> : Connection established with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : START /itwc/sets/Game/1.jpg
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <info> : Access Successful.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <debug> : Added /itwc/sets/Game/4.jpg to url map
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Access Successful.
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <info> : This is a valid request.
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <info> : Request info: method: GET, uri: /itwc/sets/Game/4.jpg
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:28 UTC] [0x00007fa9231bc700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <debug> : Added /itwc/sets/Game/1.jpg to url map
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : This is a valid request.
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Request info: method: GET, uri: /itwc/sets/Game/1.jpg
+[2020-06-11 23:49:28 UTC] [0x00007fa9239bd700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : Start session
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : Connection established with a client.
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : Start session
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : Connection established with a client.
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <debug> : START /itwc/
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : Access Successful.
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <debug> : Added /itwc/html/front.html to url map
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : This is a valid request.
+[2020-06-11 23:49:32 UTC] [0x00007fa9221ba700] <info> : Request info: method: GET, uri: /itwc/
+[2020-06-11 23:49:32 UTC] [0x00007fa9231bc700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <debug> : START /itwc/css/front.css
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <info> : Access Successful.
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <debug> : Added /itwc/css/front.css to url map
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <info> : This is a valid request.
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <info> : Request info: method: GET, uri: /itwc/css/front.css
+[2020-06-11 23:49:32 UTC] [0x00007fa9241be700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : Start session
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : Connection established with a client.
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <debug> : START /itwc/topics.txt
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : Access Successful.
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <debug> : Added /itwc/topics.txt to url map
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : This is a valid request.
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : Request info: method: GET, uri: /itwc/topics.txt
+[2020-06-11 23:49:32 UTC] [0x00007fa9249bf700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:37 UTC] [0x00007fa9219b9700] <info> : Start session
+[2020-06-11 23:49:37 UTC] [0x00007fa9219b9700] <info> : Connection established with a client.
+[2020-06-11 23:49:37 UTC] [0x00007fa9219b9700] <info> : Start session
+[2020-06-11 23:49:37 UTC] [0x00007fa9219b9700] <info> : Connection established with a client.
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <debug> : START /itwc/html/rank.html
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <info> : Access Successful.
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <debug> : incremented /itwc/html/rank.html in the url map
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <info> : This is a valid request.
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <info> : Request info: method: GET, uri: /itwc/html/rank.html
+[2020-06-11 23:49:37 UTC] [0x00007fa9229bb700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <debug> : START /itwc/css/rank.css
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <info> : Access Successful.
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <debug> : incremented 200 in the code map
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <debug> : incremented /itwc/css/rank.css in the url map
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <info> : This is a valid request.
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <info> : Request info: method: GET, uri: /itwc/css/rank.css
+[2020-06-11 23:49:37 UTC] [0x00007fa9239bd700] <info> : Successfully closed connection with a client.
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <info> : Start session
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <info> : Connection established with a client.
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <debug> : START /itwc/score_map/UCLABuilding.txt
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <debug> : Incremented ITWC number of handler
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <info> : ITWC handler accessing front.html
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <debug> : und calls: 
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <debug> : Added 404 to the code map
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <debug> : Added /itwc/score_map/UCLABuilding.txt to url map
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <error> : [Message] invalid url received - file does not exist [ResponseMetrics] (1)RESPONSE CODE: 404, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <info> : This is a valid request.
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <info> : Request info: method: GET, uri: /itwc/score_map/UCLABuilding.txt
+[2020-06-11 23:49:37 UTC] [0x00007fa9249bf700] <info> : Successfully closed connection with a client.

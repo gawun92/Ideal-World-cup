@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbase_request_handler.a  CMakeFiles/base_request_handler.dir/src/base_request_handler.cc.o
+/usr/bin/ranlib libbase_request_handler.a

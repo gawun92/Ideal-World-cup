@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblog_handler.a  CMakeFiles/log_handler.dir/src/log_handler.cc.o
+/usr/bin/ranlib liblog_handler.a

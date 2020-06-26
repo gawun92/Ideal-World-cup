@@ -1,0 +1,3 @@
+[2020-05-24 06:25:52 UTC] [0x00007f4e1a6c7740] <info> : Parsing configuration file...
+[2020-05-24 06:25:52 UTC] [0x00007f4e1a6c7740] <fatal> : Failed to open config file ../../tests/config_reverse
+[2020-05-24 06:25:52 UTC] [0x00007f4e1a6c7740] <info> : Parsing completed, starting server at port number -1359202378

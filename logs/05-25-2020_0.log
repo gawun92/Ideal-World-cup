@@ -1,0 +1,2177 @@
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <info> : Parsing configuration file...
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : port is: 8080
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : url is: /echo
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : handler is: EchoHandler
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : url is: /static
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : handler is: StaticHandler
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : url is: /status
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : handler is: StatusHandler
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : url is: /ucla
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : handler is: ReverseProxyHandler
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : url is: /columbia
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : handler is: ReverseProxyHandler
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : Root path: ../data/echo_data
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : Root path: ../data/static_data
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : Root path: 
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <error> : Initialized proxy handler
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : Root path: 
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <error> : Initialized proxy handler
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : Root path: 
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <debug> : Root path: ../data/echo_data
+[2020-05-25 22:11:11 UTC] [0x00007fa75daa9740] <info> : Server has been started.
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <debug> : START /
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <debug> : und calls: 
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <debug> : Added 404 to the code map
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /[IP: 172.17.0.1] 
+[2020-05-25 22:11:19 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <debug> : START /
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <debug> : und calls: 
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /[IP: 172.17.0.1] 
+[2020-05-25 22:11:22 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <debug> : START /
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <debug> : und calls: 
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /[IP: 172.17.0.1] 
+[2020-05-25 22:11:25 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:26 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:11:26 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <debug> : START /ucla/
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET / HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:26 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:11:26 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <debug> : Added 200 to the code map
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <debug> : Added /ucla/ to url map
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:26 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/[IP: 172.17.0.1] 
+[2020-05-25 22:11:26 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <debug> : und calls: 
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:26 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:27 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:11:27 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:27 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:11:27 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <debug> : START /ucla/
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET / HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <debug> : incremented /ucla/ in the url map
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/[IP: 172.17.0.1] 
+[2020-05-25 22:11:27 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <debug> : und calls: 
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:27 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <debug> : START /ucla/about/chancellor
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Sending to host www.ucla.edu: GET /about/chancellor HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Redirecting with location https://chancellor.ucla.edu/?utm_campaign=UCLA-Gateway&utm_source=Gateway&utm_medium=website&utm_content=URL-Redirect-Chancellor
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <error> : Server response was 302
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <debug> : Added 302 to the code map
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <debug> : Added /ucla/about/chancellor to url map
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /ucla/about/chancellor[IP: 172.17.0.1] 
+[2020-05-25 22:11:30 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <debug> : START /ucla/about/
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /about/ HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/about/ to url map
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/about/[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <debug> : START /ucla/img/banners/about/overview.jpg
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <debug> : START /ucla/img/content-images/callout-stats-about-overview-1002-2019.png
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /img/banners/about/overview.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /img/content-images/callout-stats-about-overview-1002-2019.png HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/img/content-images/callout-stats-about-overview-1002-2019.png to url map
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/img/content-images/callout-stats-about-overview-1002-2019.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <debug> : und calls: 
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:11:34 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/img/banners/about/overview.jpg to url map
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/img/banners/about/overview.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:34 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <debug> : START /ucla/about/leadership
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Sending to host www.ucla.edu: GET /about/leadership HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <error> : Server response was 200
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <debug> : Added /ucla/about/leadership to url map
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /ucla/about/leadership[IP: 172.17.0.1] 
+[2020-05-25 22:11:38 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:38 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:11:38 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:38 UTC] [0x00007fa75a13a700] <debug> : START /ucla/img/banners/about/leadership.jpg
+[2020-05-25 22:11:38 UTC] [0x00007fa75a13a700] <info> : Sending to host www.ucla.edu: GET /img/banners/about/leadership.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/leadership
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:38 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:38 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:11:39 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:39 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <debug> : und calls: 
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:39 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <debug> : Added /ucla/img/banners/about/leadership.jpg to url map
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /ucla/img/banners/about/leadership.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:39 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <debug> : START /ucla/about/mission-and-values
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : Sending to host www.ucla.edu: GET /about/mission-and-values HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <debug> : Added /ucla/about/mission-and-values to url map
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /ucla/about/mission-and-values[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <debug> : START /ucla/img/banners/about/mission-and-values.jpg
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/content-images/callout-education-research-service.jpg
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /img/banners/about/mission-and-values.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/mission-and-values
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/content-images/callout-education-research-service.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/mission-and-values
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <debug> : START /ucla/img/content-images/about-mission-vision.jpg
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /img/content-images/about-mission-vision.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/mission-and-values
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <debug> : und calls: 
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/content-images/callout-education-research-service.jpg to url map
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/content-images/callout-education-research-service.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/img/banners/about/mission-and-values.jpg to url map
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/img/banners/about/mission-and-values.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/img/content-images/about-mission-vision.jpg to url map
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/img/content-images/about-mission-vision.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:43 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:47 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:11:47 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <debug> : START /img/content-images/landing-photo-visit.jpg
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <debug> : und calls: 
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /img/content-images/landing-photo-visit.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <debug> : und calls: 
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:47 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <debug> : START /ucla/about/history
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /about/history HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:11:51 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/about/history to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/about/history[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : START /ucla/img/banners/about/history.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Sending to host www.ucla.edu: GET /img/banners/about/history.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/content-images/history-timeline-2012.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-2012.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : START /ucla/img/content-images/history-timeline-2007-yellow.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-2007-yellow.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : START /ucla/img/content-images/history-timeline-2014.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-2014.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : START /ucla/img/content-images/history-timeline-2008-blue.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : START /ucla/img/content-images/history-timeline-2010-yellow.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-2008-blue.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-2010-yellow.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/content-images/history-timeline-2012.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-2012.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : Added /ucla/img/content-images/history-timeline-2008-blue.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : START /ucla/img/content-images/history-timeline-2006.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : Added /ucla/img/content-images/history-timeline-2014.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-2008-blue.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-2014.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Added /ucla/img/content-images/history-timeline-2007-yellow.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-2007-yellow.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Added /ucla/img/content-images/history-timeline-2010-yellow.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-2010-yellow.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-2006.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : START /ucla/img/content-images/history-timeline-1998.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1998.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : START /ucla/img/content-images/history-timeline-1998-blue.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1998-blue.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/content-images/history-timeline-1990.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : START /ucla/img/content-images/history-timeline-1997.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1990.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1997.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/img/content-images/history-timeline-2006.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-2006.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Added /ucla/img/content-images/history-timeline-1998-blue.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1998-blue.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/content-images/history-timeline-1990.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1990.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Added /ucla/img/content-images/history-timeline-1998.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1998.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : Added /ucla/img/banners/about/history.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : START /ucla/img/content-images/history-timeline-1987-yellow.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1987-yellow.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /ucla/img/banners/about/history.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : Added /ucla/img/content-images/history-timeline-1997.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : START /ucla/img/content-images/history-timeline-1984-blue.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1984-blue.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1997.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : START /ucla/img/content-images/history-timeline-1981-yellow.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : START /ucla/img/content-images/history-timeline-1972.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/content-images/history-timeline-1969.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1981-yellow.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1972.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1969.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : START /ucla/img/content-images/history-timeline-1969-blue.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1969-blue.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/img/content-images/history-timeline-1987-yellow.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1987-yellow.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : START /ucla/img/content-images/history-timeline-1964-yellow.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1964-yellow.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : Added /ucla/img/content-images/history-timeline-1984-blue.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1984-blue.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : START /ucla/img/content-images/history-timeline-1964.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Added /ucla/img/content-images/history-timeline-1981-yellow.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1964.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1981-yellow.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : START /ucla/img/content-images/history-timeline-1960.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1960.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Added /ucla/img/content-images/history-timeline-1972.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1972.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/content-images/history-timeline-1969.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1969.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : Added /ucla/img/content-images/history-timeline-1969-blue.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : START /ucla/img/content-images/history-timeline-1956-blue.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1956-blue.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/img/content-images/history-timeline-1964-yellow.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1964-yellow.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1969-blue.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : START /ucla/img/content-images/history-timeline-1950.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1950.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : START /ucla/img/content-images/history-timeline-1938.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1938.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : START /ucla/img/content-images/history-timeline-1933-yellow.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/img/content-images/history-timeline-1964.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1933-yellow.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1964.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Added /ucla/img/content-images/history-timeline-1960.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : START /ucla/img/content-images/history-timeline-1929-blue.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1960.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1929-blue.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <debug> : Added /ucla/img/content-images/history-timeline-1956-blue.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1956-blue.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/content-images/history-timeline-1927-yellow.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1927-yellow.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : START /ucla/img/content-images/history-timeline-1919-blue.jpg
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <debug> : Added /ucla/img/content-images/history-timeline-1950.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /img/content-images/history-timeline-1919-blue.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/history
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1950.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <debug> : Added /ucla/img/content-images/history-timeline-1938.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1938.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <debug> : Added /ucla/img/content-images/history-timeline-1933-yellow.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1933-yellow.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : und calls: 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/img/content-images/history-timeline-1929-blue.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1929-blue.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/content-images/history-timeline-1927-yellow.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1927-yellow.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:11:52 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/img/content-images/history-timeline-1919-blue.jpg to url map
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/img/content-images/history-timeline-1919-blue.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:52 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:57 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:11:57 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <debug> : START /ucla/about/careers
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /about/careers HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/about/careers to url map
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/about/careers[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:57 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:11:57 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/banners/about/careers.jpg
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/banners/about/careers.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/careers
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <debug> : START /ucla/img/content-images/callout-stats-about-careers.gif
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Sending to host www.ucla.edu: GET /img/content-images/callout-stats-about-careers.gif HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/careers
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <debug> : Added /ucla/img/content-images/callout-stats-about-careers.gif to url map
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /ucla/img/content-images/callout-stats-about-careers.gif[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <debug> : und calls: 
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <debug> : incremented 404 in the code map
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/banners/about/careers.jpg to url map
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/banners/about/careers.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:11:57 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:01 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:12:01 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <debug> : START /ucla/accessibility
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /accessibility HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/about/careers
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/accessibility to url map
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:01 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/accessibility[IP: 172.17.0.1] 
+[2020-05-25 22:12:01 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:01 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:12:01 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:01 UTC] [0x00007fa75b13c700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:12:01 UTC] [0x00007fa75b13c700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:01 UTC] [0x00007fa75b13c700] <debug> : und calls: 
+[2020-05-25 22:12:01 UTC] [0x00007fa75b13c700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:01 UTC] [0x00007fa75b13c700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:01 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:01 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:12:01 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <debug> : START /ucla/faculty
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET /faculty HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/accessibility
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <debug> : Added /ucla/faculty to url map
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/faculty[IP: 172.17.0.1] 
+[2020-05-25 22:12:10 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:10 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:12:10 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:10 UTC] [0x00007fa75a93b700] <debug> : START /ucla/img/banners/faculty/faculty-1.jpg
+[2020-05-25 22:12:10 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /img/banners/faculty/faculty-1.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/faculty
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:10 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:10 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/img/banners/faculty/faculty-1.jpg to url map
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/img/banners/faculty/faculty-1.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <debug> : und calls: 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <debug> : START /ucla/students/current-students
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /students/current-students HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/faculty
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/students/current-students to url map
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/students/current-students[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <debug> : START /ucla/img/banners/students/current-students-1.jpg
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : Sending to host www.ucla.edu: GET /img/banners/students/current-students-1.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; _gat=1; _gat_globalTracker=1; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/students/current-students
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <debug> : und calls: 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <debug> : Added /ucla/img/banners/students/current-students-1.jpg to url map
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /ucla/img/banners/students/current-students-1.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:11 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:16 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:12:16 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <debug> : START /search?qa=hi
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <debug> : und calls: 
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /search?qa=hi[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <debug> : START /favicon.ico
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <debug> : und calls: 
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /favicon.ico[IP: 172.17.0.1] 
+[2020-05-25 22:12:16 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : START /ucla/parents-and-families
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Sending to host www.ucla.edu: GET /parents-and-families HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : Added /ucla/parents-and-families to url map
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /ucla/parents-and-families[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/banners/parents-and-families/parents-and-families-1.jpg
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/banners/parents-and-families/parents-and-families-1.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <debug> : START /ucla/img/content-images/parents-visit.jpg
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-visit.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <debug> : START /ucla/img/content-images/parents-campus-life.jpg
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <debug> : START /ucla/img/content-images/parents-health-safety.jpg
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-campus-life.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <debug> : START /ucla/img/content-images/parents-financial-aid.jpg
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <debug> : START /ucla/img/content-images/parents-passport-success.jpg
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-health-safety.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-passport-success.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-financial-aid.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <debug> : Added /ucla/img/content-images/parents-visit.jpg to url map
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-visit.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a13a700] <debug> : START /ucla/img/content-images/parents-visit-ucla.jpg
+[2020-05-25 22:12:44 UTC] [0x00007fa75a13a700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-visit-ucla.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:44 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/img/content-images/parents-passport-success.jpg to url map
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-passport-success.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:12:44 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <debug> : Added /ucla/img/content-images/parents-campus-life.jpg to url map
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-campus-life.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <debug> : Added /ucla/img/content-images/parents-health-safety.jpg to url map
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-health-safety.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : und calls: 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:12:44 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <error> : Server response was 200
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <debug> : Added /ucla/img/content-images/parents-financial-aid.jpg to url map
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-financial-aid.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/banners/parents-and-families/parents-and-families-1.jpg to url map
+[2020-05-25 22:12:44 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/banners/parents-and-families/parents-and-families-1.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:44 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <debug> : Added /ucla/img/content-images/parents-visit-ucla.jpg to url map
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-visit-ucla.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:45 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <debug> : START /ucla/img/content-images/parents-families-gallery-thumb-02.jpg
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-families-gallery-thumb-02.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <debug> : START /ucla/img/content-images/parents-families-gallery-thumb-06.jpg
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-families-gallery-thumb-06.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <debug> : START /ucla/img/content-images/parents-families-gallery-thumb-12.jpg
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-families-gallery-thumb-12.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <debug> : START /ucla/img/content-images/parents-families-gallery-thumb-07.jpg
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-families-gallery-thumb-07.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <debug> : START /ucla/img/content-images/parents-families-gallery-thumb-08.jpg
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-families-gallery-thumb-08.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <debug> : START /ucla/img/content-images/parents-families-gallery-thumb-05.jpg
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Sending to host www.ucla.edu: GET /img/content-images/parents-families-gallery-thumb-05.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/ucla/parents-and-families
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <debug> : Added /ucla/img/content-images/parents-families-gallery-thumb-02.jpg to url map
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-families-gallery-thumb-02.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <debug> : Added /ucla/img/content-images/parents-families-gallery-thumb-12.jpg to url map
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <debug> : Added /ucla/img/content-images/parents-families-gallery-thumb-08.jpg to url map
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-families-gallery-thumb-08.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <error> : Server response was 200
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <debug> : Added /ucla/img/content-images/parents-families-gallery-thumb-07.jpg to url map
+[2020-05-25 22:12:51 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-families-gallery-thumb-07.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <debug> : Added /ucla/img/content-images/parents-families-gallery-thumb-06.jpg to url map
+[2020-05-25 22:12:51 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-families-gallery-thumb-12.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-families-gallery-thumb-06.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <debug> : Added /ucla/img/content-images/parents-families-gallery-thumb-05.jpg to url map
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /ucla/img/content-images/parents-families-gallery-thumb-05.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:51 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <debug> : und calls: 
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:12:51 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <debug> : START /ucla/
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Sending to host www.ucla.edu: GET / HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:53 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:12:53 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <debug> : incremented /ucla/ in the url map
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /ucla/[IP: 172.17.0.1] 
+[2020-05-25 22:12:53 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <debug> : START /img/weather/sun.png
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <debug> : und calls: 
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /img/weather/sun.png[IP: 172.17.0.1] 
+[2020-05-25 22:12:53 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <debug> : START /
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <debug> : und calls: 
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <debug> : incremented 404 in the code map
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /[IP: 172.17.0.1] 
+[2020-05-25 22:12:54 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:54 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:12:54 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:54 UTC] [0x00007fa75a93b700] <debug> : START /columbia/
+[2020-05-25 22:12:54 UTC] [0x00007fa75a93b700] <info> : Sending to host www.columbia.edu: GET / HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:54 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <debug> : Added /columbia/ to url map
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /columbia/[IP: 172.17.0.1] 
+[2020-05-25 22:12:55 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <debug> : START /columbia/
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Sending to host www.columbia.edu: GET / HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <debug> : incremented /columbia/ in the url map
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /columbia/[IP: 172.17.0.1] 
+[2020-05-25 22:12:56 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:12:59 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:12:59 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <debug> : START /columbia/sites/all/themes/base/columbia2/images/expanded.png
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <info> : Sending to host www.columbia.edu: GET /sites/all/themes/base/columbia2/images/expanded.png HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <debug> : Added /columbia/sites/all/themes/base/columbia2/images/expanded.png to url map
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /columbia/sites/all/themes/base/columbia2/images/expanded.png[IP: 172.17.0.1] 
+[2020-05-25 22:12:59 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : START /columbia/content/academics.html
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Sending to host www.columbia.edu: GET /content/academics.html HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : Added /columbia/content/academics.html to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /columbia/content/academics.html[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : START /columbia/sites/all/modules/contrib/taxonomy_super_select/taxonomy_super_select.css
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Sending to host www.columbia.edu: GET /sites/all/modules/contrib/taxonomy_super_select/taxonomy_super_select.css HTTP/1.0
+Accept: text/css,*/*;q=0.1
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : START /columbia/files/columbia/imagecache/featured_container_image/1-schools.jpeg
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Sending to host www.columbia.edu: GET /files/columbia/imagecache/featured_container_image/1-schools.jpeg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : START /columbia/files/columbia/imagecache/featured_container_image/2-departments.jpg
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Sending to host www.columbia.edu: GET /files/columbia/imagecache/featured_container_image/2-departments.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : START /columbia/files/columbia/imagecache/featured_container_image/3-centers.jpg
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Sending to host www.columbia.edu: GET /files/columbia/imagecache/featured_container_image/3-centers.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <debug> : START /columbia/files/columbia/imagecache/slideshow-teaser/slideshow/research-tease3_1.png
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : START /columbia/files/columbia/imagecache/featured_container_image/Picture-4.jpg
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : Sending to host www.columbia.edu: GET /files/columbia/imagecache/slideshow-teaser/slideshow/research-tease3_1.png HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Sending to host www.columbia.edu: GET /files/columbia/imagecache/featured_container_image/Picture-4.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : Added /columbia/files/columbia/imagecache/featured_container_image/1-schools.jpeg to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /columbia/files/columbia/imagecache/featured_container_image/1-schools.jpeg[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <debug> : START /columbia/sites/all/themes/ias/cu2/autotext.js
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Sending to host www.columbia.edu: GET /sites/all/themes/ias/cu2/autotext.js HTTP/1.0
+Accept: */*
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : Added /columbia/files/columbia/imagecache/featured_container_image/2-departments.jpg to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /columbia/files/columbia/imagecache/featured_container_image/2-departments.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : Added /columbia/files/columbia/imagecache/featured_container_image/3-centers.jpg to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : Added /columbia/files/columbia/imagecache/featured_container_image/Picture-4.jpg to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : Added /columbia/sites/all/modules/contrib/taxonomy_super_select/taxonomy_super_select.css to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /columbia/files/columbia/imagecache/featured_container_image/Picture-4.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /columbia/sites/all/modules/contrib/taxonomy_super_select/taxonomy_super_select.css[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /columbia/files/columbia/imagecache/featured_container_image/3-centers.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : START /columbia/sites/all/themes/ias/cu2/images/container_bg.gif
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Sending to host www.columbia.edu: GET /sites/all/themes/ias/cu2/images/container_bg.gif HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : START /columbia/sites/all/themes/base/columbia2/images/list-bullet-end.gif
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Sending to host www.columbia.edu: GET /sites/all/themes/base/columbia2/images/list-bullet-end.gif HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : START /columbia/sites/all/themes/ias/cu2/images/search-text.jpg
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : START /columbia/sites/all/themes/base/columbia2/images/list-bullet.gif
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Sending to host www.columbia.edu: GET /sites/all/themes/ias/cu2/images/search-text.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Sending to host www.columbia.edu: GET /sites/all/themes/base/columbia2/images/list-bullet.gif HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <debug> : Added /columbia/files/columbia/imagecache/slideshow-teaser/slideshow/research-tease3_1.png to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /columbia/files/columbia/imagecache/slideshow-teaser/slideshow/research-tease3_1.png[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b93d700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <debug> : START /columbia/sites/all/themes/base/columbia2/images/nav_bg.jpg
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Sending to host www.columbia.edu: GET /sites/all/themes/base/columbia2/images/nav_bg.jpg HTTP/1.0
+Accept: image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <debug> : Added /columbia/sites/all/themes/ias/cu2/autotext.js to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Request info: method: GET, uri: /columbia/sites/all/themes/ias/cu2/autotext.js[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Starting to read server response
+[2020-05-25 22:13:00 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <debug> : Added /columbia/sites/all/themes/ias/cu2/images/container_bg.gif to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Request info: method: GET, uri: /columbia/sites/all/themes/ias/cu2/images/container_bg.gif[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75c13e700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <debug> : Added /columbia/sites/all/themes/base/columbia2/images/list-bullet-end.gif to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Request info: method: GET, uri: /columbia/sites/all/themes/base/columbia2/images/list-bullet-end.gif[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <debug> : Added /columbia/sites/all/themes/ias/cu2/images/search-text.jpg to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Request info: method: GET, uri: /columbia/sites/all/themes/ias/cu2/images/search-text.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <debug> : Added /columbia/sites/all/themes/base/columbia2/images/list-bullet.gif to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Request info: method: GET, uri: /columbia/sites/all/themes/base/columbia2/images/list-bullet.gif[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a93b700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa75b13c700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Reading done
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <error> : Server response was 200
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <debug> : incremented 200 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <debug> : Added /columbia/sites/all/themes/base/columbia2/images/nav_bg.jpg to url map
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Request info: method: GET, uri: /columbia/sites/all/themes/base/columbia2/images/nav_bg.jpg[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa75a13a700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Start session
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : START /favicon.ico
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : Incremented 404 number of handler
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : und calls: 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <debug> : incremented 404 in the code map
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <error> : The request is not found (404)[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Request info: method: GET, uri: /favicon.ico[IP: 172.17.0.1] 
+[2020-05-25 22:13:00 UTC] [0x00007fa759939700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:13:03 UTC] [0x00007fa75b93d700] <info> : Start session
+[2020-05-25 22:13:03 UTC] [0x00007fa75b93d700] <info> : Connection established with a client.[IP: 172.17.0.1] 
+[2020-05-25 22:13:03 UTC] [0x00007fa75b93d700] <debug> : START /columbia/node/4.html
+[2020-05-25 22:13:03 UTC] [0x00007fa75b93d700] <info> : Sending to host www.columbia.edu: GET /node/4.html HTTP/1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:  
+Accept-Language: en-us
+Connection: close
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1764244352.20480.0000; has_js=1; _ga=GA1.1.807236468.1590432829; _gat=1; _gat_globalTracker=1; _gid=GA1.1.1198211406.1590432829; _hjid=309e5dae-eadf-43d3-9af6-9df9d0cb71df; _hjIncludedInSample=1; PHPSESSID=62ke6tchnaun07uh8vkp0qm0h2
+Host: localhost:8080
+Referer: http://localhost:8080/columbia/content/academics.html
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+
+
+[2020-05-25 22:13:03 UTC] [0x00007fa75b93d700] <info> : Starting to send proxied server the request
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <info> : Starting to read server response
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <info> : Reading done
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <error> : Server response was 301
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <debug> : Incremented proxy number of handler
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <debug> : Added 301 to the code map
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <debug> : Added /columbia/node/4.html to url map
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <info> : This is a valid request.[IP: 172.17.0.1] 
+[2020-05-25 22:13:04 UTC] [0x00007fa75b93d700] <info> : Request info: method: GET, uri: /columbia/node/4.html[IP: 172.17.0.1] 
+[2020-05-25 22:13:04 UTC] [0x00007fa75c93f700] <info> : Successfully closed connection with a client.
+[2020-05-25 22:38:20 UTC] [0x00007fa75a93b700] <info> : Start session
+[2020-05-25 22:38:20 UTC] [0x00007fa759138700] <info> : Successfully closed connection with a client.

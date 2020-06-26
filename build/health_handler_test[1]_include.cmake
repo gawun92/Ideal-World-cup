@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/gerrit-masters/build/health_handler_test[1]_tests.cmake")
+  include("/usr/src/projects/gerrit-masters/build/health_handler_test[1]_tests.cmake")
+else()
+  add_test(health_handler_test_NOT_BUILT health_handler_test_NOT_BUILT)
+endif()

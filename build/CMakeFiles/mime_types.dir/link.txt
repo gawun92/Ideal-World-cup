@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmime_types.a  CMakeFiles/mime_types.dir/src/mime_types.cc.o
+/usr/bin/ranlib libmime_types.a

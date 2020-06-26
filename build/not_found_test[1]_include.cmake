@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/gerrit-masters/build/not_found_test[1]_tests.cmake")
+  include("/usr/src/projects/gerrit-masters/build/not_found_test[1]_tests.cmake")
+else()
+  add_test(not_found_test_NOT_BUILT not_found_test_NOT_BUILT)
+endif()

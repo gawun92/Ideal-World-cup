@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreverse_proxy_handler.a  CMakeFiles/reverse_proxy_handler.dir/src/reverse_proxy_handler.cc.o
+/usr/bin/ranlib libreverse_proxy_handler.a

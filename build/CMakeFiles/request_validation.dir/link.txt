@@ -1,0 +1,2 @@
+/usr/bin/ar qc librequest_validation.a  CMakeFiles/request_validation.dir/src/request_validation.cc.o
+/usr/bin/ranlib librequest_validation.a

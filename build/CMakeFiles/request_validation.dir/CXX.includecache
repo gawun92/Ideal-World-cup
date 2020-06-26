@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/config_parser.h
+iostream
+-
+memory
+-
+string
+-
+vector
+-
+
+../include/data_structures.h
+string
+-
+vector
+-
+map
+-
+config_parser.h
+../include/config_parser.h
+
+../include/request_validation.h
+tuple
+-
+iostream
+-
+
+/usr/src/projects/gerrit-masters/src/request_validation.cc
+request_validation.h
+/usr/src/projects/gerrit-masters/src/request_validation.h
+data_structures.h
+/usr/src/projects/gerrit-masters/src/data_structures.h
+

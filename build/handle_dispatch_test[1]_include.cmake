@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/gerrit-masters/build/handle_dispatch_test[1]_tests.cmake")
+  include("/usr/src/projects/gerrit-masters/build/handle_dispatch_test[1]_tests.cmake")
+else()
+  add_test(handle_dispatch_test_NOT_BUILT handle_dispatch_test_NOT_BUILT)
+endif()

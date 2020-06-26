@@ -1,0 +1,5 @@
+add_test( not_found_handler_test.NotFoundInitializeTest /usr/src/projects/gerrit-masters/build/bin/not_found_test [==[--gtest_filter=not_found_handler_test.NotFoundInitializeTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( not_found_handler_test.NotFoundInitializeTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/not_found_test/)
+add_test( not_found_handler_test.NotFoundHandleTest /usr/src/projects/gerrit-masters/build/bin/not_found_test [==[--gtest_filter=not_found_handler_test.NotFoundHandleTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( not_found_handler_test.NotFoundHandleTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/not_found_test/)
+set( not_found_test_TESTS not_found_handler_test.NotFoundInitializeTest not_found_handler_test.NotFoundHandleTest)

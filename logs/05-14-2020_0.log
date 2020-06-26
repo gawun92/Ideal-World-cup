@@ -1,0 +1,10 @@
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <info> : Parsing configuration file...
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <debug> : port is: 8080
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <debug> : url is: /echo
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <debug> : handler is: EchoHandler
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <debug> : url is: /static
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <debug> : handler is: StaticHandler
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <debug> : url is: /status
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <debug> : handler is: StatusHandler
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-14 08:42:16 UTC] [0x00007f0ab8378740] <fatal> : Exception occured. Could not start the server.

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/html_parser_test.dir/tests/html_parser_test.cc.o  -o bin/html_parser_test libhtml_parser.a googletest/googlemock/gtest/libgtest_main.a googletest/googlemock/gtest/libgtest.a -lpthread 

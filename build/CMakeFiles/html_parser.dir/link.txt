@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhtml_parser.a  CMakeFiles/html_parser.dir/src/html_parser.cc.o
+/usr/bin/ranlib libhtml_parser.a

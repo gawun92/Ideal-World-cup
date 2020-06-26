@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/mime_types.h
+string
+-
+
+/usr/src/projects/gerrit-masters/src/mime_types.cc
+map
+-
+mime_types.h
+/usr/src/projects/gerrit-masters/src/mime_types.h
+

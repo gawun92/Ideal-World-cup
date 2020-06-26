@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstatus_request_handler.a  CMakeFiles/status_request_handler.dir/src/status_request_handler.cc.o
+/usr/bin/ranlib libstatus_request_handler.a

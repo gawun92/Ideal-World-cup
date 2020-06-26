@@ -1,0 +1,42 @@
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <info> : Parsing configuration file...
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : port is: 8080
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : url is: /echo
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : handler is: EchoHandler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : url is: /static
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : handler is: StaticHandler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : url is: /status
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : handler is: StatusHandler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : url is: /ucla
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : handler is: ReverseProxyHandler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : url is: /columbia
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : handler is: ReverseProxyHandler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : url is: /health
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : handler is: HealthHandler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : Root path: ../data/echo_data
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : Root path: ../data/static_data
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : Root path: 
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <error> : Initialized proxy handler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : Root path: 
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <error> : Initialized proxy handler
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : Root path: 
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : Root path: 
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <debug> : Root path: ../data/echo_data
+[2020-05-27 23:37:41 UTC] [0x00007faba6ba0740] <info> : Server has been started.
+[2020-05-27 23:37:42 UTC] [0x00007faba5a36700] <info> : Start session
+[2020-05-27 23:37:42 UTC] [0x00007faba5a36700] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-27 23:37:44 UTC] [0x00007faba5235700] <debug> : START /echo/index.html
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <debug> : START /echo/index.html
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <debug> : Incremented echo number of handler
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <debug> : ../data/echo_data/index.html
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <info> : Trying to access a file as Echo...[IP: 127.0.0.1] 
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <info> : Access Successful.[IP: 127.0.0.1] 
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <debug> : Added 200 to the code map
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <debug> : Added /echo/index.html to url map
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <info> : Response created successfully.[IP: 127.0.0.1] 
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <info> : [Message] Access and Response successful[ResponseMetrics]: response_code: 200, request_handler: echo, request_path: ../data/echo_data/index.html, ip_address: 127.0.0.1
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <info> : Request info: method: GET, uri: /echo/index.html[IP: 127.0.0.1] 
+[2020-05-27 23:37:44 UTC] [0x00007faba4a34700] <info> : Successfully closed connection with a client.
+[2020-05-27 23:37:59 UTC] [0x00007faba5235700] <info> : Start session
+[2020-05-27 23:37:59 UTC] [0x00007faba4233700] <info> : Successfully closed connection with a client.

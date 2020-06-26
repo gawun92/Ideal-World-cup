@@ -1,0 +1,9 @@
+foo 'c'
+http {
+    # this is a comment
+    server {
+        location / {
+            root /data;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+add_test( data_structures_test.headerAssignmentTest /usr/src/projects/gerrit-masters/build/bin/data_structures_test [==[--gtest_filter=data_structures_test.headerAssignmentTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( data_structures_test.headerAssignmentTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/data_structures_test/)
+add_test( data_structures_test.requestAssignmentTest /usr/src/projects/gerrit-masters/build/bin/data_structures_test [==[--gtest_filter=data_structures_test.requestAssignmentTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( data_structures_test.requestAssignmentTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/data_structures_test/)
+add_test( data_structures_test.handlerConfigAssignmentTest /usr/src/projects/gerrit-masters/build/bin/data_structures_test [==[--gtest_filter=data_structures_test.handlerConfigAssignmentTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( data_structures_test.handlerConfigAssignmentTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/data_structures_test/)
+set( data_structures_test_TESTS data_structures_test.headerAssignmentTest data_structures_test.requestAssignmentTest data_structures_test.handlerConfigAssignmentTest)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libitwc_handler.a  CMakeFiles/itwc_handler.dir/src/itwc_handler.cc.o
+/usr/bin/ranlib libitwc_handler.a

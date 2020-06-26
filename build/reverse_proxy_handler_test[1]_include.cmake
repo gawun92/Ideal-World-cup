@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/gerrit-masters/build/reverse_proxy_handler_test[1]_tests.cmake")
+  include("/usr/src/projects/gerrit-masters/build/reverse_proxy_handler_test[1]_tests.cmake")
+else()
+  add_test(reverse_proxy_handler_test_NOT_BUILT reverse_proxy_handler_test_NOT_BUILT)
+endif()

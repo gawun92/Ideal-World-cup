@@ -1,0 +1,16 @@
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <info> : Parsing configuration file...
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <debug> : port is: 8080
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <debug> : url is: ech
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <debug> : handler is: EchoHandler
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <debug> : url is: stati
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <debug> : handler is: StaticHandler
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <debug> : url is: statu
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <debug> : handler is: StatusHandler
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-13 23:59:58 UTC] [0x00007fd379c1e740] <info> : Server has been started.
+[2020-05-13 23:59:59 UTC] [0x00007fd379c1e740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-13 23:59:59 UTC] [0x00007fd379c1e740] <error> : The request is not found (404)[IP: 127.0.0.1] 
+[2020-05-13 23:59:59 UTC] [0x00007fd379c1e740] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-13 23:59:59 UTC] [0x00007fd379c1e740] <info> : Request info: method: GET, uri: /echo/index.html[IP: 127.0.0.1] 
+[2020-05-13 23:59:59 UTC] [0x00007fd379c1e740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-13 23:59:59 UTC] [0x00007fd379c1e740] <info> : Successfully closed connection with a client.

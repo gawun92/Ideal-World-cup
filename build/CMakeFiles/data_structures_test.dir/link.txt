@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/data_structures_test.dir/tests/data_structures_test/data_structures_test.cc.o  -o bin/data_structures_test libconfig_parser.a libdata_structures.a googletest/googlemock/gtest/libgtest_main.a googletest/googlemock/gtest/libgtest.a -lpthread 

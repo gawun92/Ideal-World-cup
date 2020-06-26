@@ -1,0 +1,20 @@
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <info> : Parsing configuration file...
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <debug> : port is: 8080
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <debug> : url is: /echo
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <debug> : handler is: EchoHandler
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <debug> : url is: /static
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <debug> : handler is: StaticHandler
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-12 23:26:41 UTC] [0x00007f2987c24740] <info> : Server has been started.
+[2020-05-12 23:26:45 UTC] [0x00007f2987c24740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-12 23:26:48 UTC] [0x00007f2987c24740] <error> : This is not a valid request.[IP: 127.0.0.1] 
+[2020-05-12 23:26:48 UTC] [0x00007f2987c24740] <info> : Request info: method: GET, uri: /status[IP: 127.0.0.1] 
+[2020-05-12 23:26:48 UTC] [0x00007f2987c24740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-12 23:26:48 UTC] [0x00007f2987c24740] <info> : Successfully closed connection with a client.
+[2020-05-12 23:26:50 UTC] [0x00007f2987c24740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-12 23:26:51 UTC] [0x00007f2987c24740] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-12 23:26:51 UTC] [0x00007f2987c24740] <info> : Request info: method: GET, uri: /status[IP: 127.0.0.1] 
+[2020-05-12 23:26:51 UTC] [0x00007f2987c24740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-12 23:26:51 UTC] [0x00007f2987c24740] <info> : Successfully closed connection with a client.
+[2020-05-12 23:26:54 UTC] [0x00007f2987c24740] <info> : Closing server...
+[2020-05-12 23:26:54 UTC] [0x00007f2987c24740] <info> : Server successfully closed.

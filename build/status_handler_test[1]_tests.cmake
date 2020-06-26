@@ -1,0 +1,5 @@
+add_test( status_handler_test.StatusInitTest /usr/src/projects/gerrit-masters/build/bin/status_handler_test [==[--gtest_filter=status_handler_test.StatusInitTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( status_handler_test.StatusInitTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/status_handler_test/)
+add_test( status_handler_test.StatusInitializeTest /usr/src/projects/gerrit-masters/build/bin/status_handler_test [==[--gtest_filter=status_handler_test.StatusInitializeTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( status_handler_test.StatusInitializeTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/status_handler_test/)
+set( status_handler_test_TESTS status_handler_test.StatusInitTest status_handler_test.StatusInitializeTest)

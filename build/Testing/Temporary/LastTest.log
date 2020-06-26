@@ -1,0 +1,337 @@
+Start testing: May 13 23:43 UTC
+----------------------------------------------------------
+1/11 Testing: Parser_test_constructor.SimpleConfig
+1/11 Test: Parser_test_constructor.SimpleConfig
+Command: "/usr/src/projects/gerrit-masters/build/bin/config_parser_test" "--gtest_filter=Parser_test_constructor.SimpleConfig" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"Parser_test_constructor.SimpleConfig" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = Parser_test_constructor.SimpleConfig
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Parser_test_constructor
+[ RUN      ] Parser_test_constructor.SimpleConfig
+[       OK ] Parser_test_constructor.SimpleConfig (1 ms)
+[----------] 1 test from Parser_test_constructor (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Parser_test_constructor.SimpleConfig" end time: May 13 23:43 UTC
+"Parser_test_constructor.SimpleConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: ParserTest.parser_test_syntax
+2/11 Test: ParserTest.parser_test_syntax
+Command: "/usr/src/projects/gerrit-masters/build/bin/config_parser_test" "--gtest_filter=ParserTest.parser_test_syntax" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"ParserTest.parser_test_syntax" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ParserTest.parser_test_syntax
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserTest
+[ RUN      ] ParserTest.parser_test_syntax
+[2020-05-13 23:43:41.690650] [0x00007f2b6b0c8740] [fatal]   Bad transition from TOKEN_TYPE_START to TOKEN_TYPE_START_BLOCK
+[2020-05-13 23:43:41.691403] [0x00007f2b6b0c8740] [fatal]   Bad transition from TOKEN_TYPE_START_BLOCK to TOKEN_TYPE_EOF
+[2020-05-13 23:43:41.692067] [0x00007f2b6b0c8740] [fatal]   Failed to open config file WRONG_FILE_NAME
+[2020-05-13 23:43:41.692407] [0x00007f2b6b0c8740] [fatal]   Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_EOF
+[2020-05-13 23:43:41.693310] [0x00007f2b6b0c8740] [fatal]   Bad transition from TOKEN_TYPE_START_BLOCK to TOKEN_TYPE_ERROR
+[2020-05-13 23:43:41.694076] [0x00007f2b6b0c8740] [fatal]   Bad transition from TOKEN_TYPE_START to TOKEN_TYPE_END_BLOCK
+[2020-05-13 23:43:41.695403] [0x00007f2b6b0c8740] [fatal]   Not all opened brackets are closed
+[2020-05-13 23:43:41.696063] [0x00007f2b6b0c8740] [fatal]   No scope to close with TOKEN_TYPE_END_BLOCK
+[       OK ] ParserTest.parser_test_syntax (8 ms)
+[----------] 1 test from ParserTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTest.parser_test_syntax" end time: May 13 23:43 UTC
+"ParserTest.parser_test_syntax" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: ParserTest.parser_test_io
+3/11 Test: ParserTest.parser_test_io
+Command: "/usr/src/projects/gerrit-masters/build/bin/config_parser_test" "--gtest_filter=ParserTest.parser_test_io" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"ParserTest.parser_test_io" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ParserTest.parser_test_io
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserTest
+[ RUN      ] ParserTest.parser_test_io
+[2020-05-13 23:43:41.711664] [0x00007effc0a23740] [fatal]   Bad transition from TOKEN_TYPE_START to TOKEN_TYPE_START_BLOCK
+[2020-05-13 23:43:41.712398] [0x00007effc0a23740] [fatal]   Bad transition from TOKEN_TYPE_START_BLOCK to TOKEN_TYPE_EOF
+[2020-05-13 23:43:41.713215] [0x00007effc0a23740] [fatal]   Failed to open config file WRONG_FILE_NAME
+[2020-05-13 23:43:41.713585] [0x00007effc0a23740] [fatal]   Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_EOF
+[2020-05-13 23:43:41.714272] [0x00007effc0a23740] [fatal]   Bad transition from TOKEN_TYPE_START_BLOCK to TOKEN_TYPE_ERROR
+[2020-05-13 23:43:41.714935] [0x00007effc0a23740] [fatal]   Bad transition from TOKEN_TYPE_START to TOKEN_TYPE_END_BLOCK
+[2020-05-13 23:43:41.716113] [0x00007effc0a23740] [fatal]   Not all opened brackets are closed
+[2020-05-13 23:43:41.716732] [0x00007effc0a23740] [fatal]   No scope to close with TOKEN_TYPE_END_BLOCK
+[       OK ] ParserTest.parser_test_io (8 ms)
+[----------] 1 test from ParserTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ParserTest.parser_test_io" end time: May 13 23:43 UTC
+"ParserTest.parser_test_io" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: setup_log_test.logHandlerTest
+4/11 Test: setup_log_test.logHandlerTest
+Command: "/usr/src/projects/gerrit-masters/build/bin/log_handler_test" "--gtest_filter=setup_log_test.logHandlerTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"setup_log_test.logHandlerTest" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = setup_log_test.logHandlerTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from setup_log_test
+[ RUN      ] setup_log_test.logHandlerTest
+[       OK ] setup_log_test.logHandlerTest (0 ms)
+[----------] 1 test from setup_log_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"setup_log_test.logHandlerTest" end time: May 13 23:43 UTC
+"setup_log_test.logHandlerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: init_log_test.logHandlerTest
+5/11 Test: init_log_test.logHandlerTest
+Command: "/usr/src/projects/gerrit-masters/build/bin/log_handler_test" "--gtest_filter=init_log_test.logHandlerTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"init_log_test.logHandlerTest" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = init_log_test.logHandlerTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from init_log_test
+[ RUN      ] init_log_test.logHandlerTest
+[       OK ] init_log_test.logHandlerTest (0 ms)
+[----------] 1 test from init_log_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"init_log_test.logHandlerTest" end time: May 13 23:43 UTC
+"init_log_test.logHandlerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: simple_log_test.logHandlerTest
+6/11 Test: simple_log_test.logHandlerTest
+Command: "/usr/src/projects/gerrit-masters/build/bin/log_handler_test" "--gtest_filter=simple_log_test.logHandlerTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"simple_log_test.logHandlerTest" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = simple_log_test.logHandlerTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from simple_log_test
+[ RUN      ] simple_log_test.logHandlerTest
+[2020-05-13 23:43:41.749714] [0x00007f802fa0b740] [trace]   test log message
+[2020-05-13 23:43:41.749722] [0x00007f802fa0b740] [debug]   test log message
+[2020-05-13 23:43:41.749731] [0x00007f802fa0b740] [info]    test log message
+[2020-05-13 23:43:41.749737] [0x00007f802fa0b740] [warning] test log message
+[2020-05-13 23:43:41.749743] [0x00007f802fa0b740] [error]   test log message
+[2020-05-13 23:43:41.749749] [0x00007f802fa0b740] [fatal]   test log message
+[2020-05-13 23:43:41.749755] [0x00007f802fa0b740] [error]   Logging error, log_type was not a valid number.
+[2020-05-13 23:43:41.749761] [0x00007f802fa0b740] [error]   Logging error, log_type was not a valid number.
+[       OK ] simple_log_test.logHandlerTest (0 ms)
+[----------] 1 test from simple_log_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"simple_log_test.logHandlerTest" end time: May 13 23:43 UTC
+"simple_log_test.logHandlerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: ip_log_test.logHandlerTest
+7/11 Test: ip_log_test.logHandlerTest
+Command: "/usr/src/projects/gerrit-masters/build/bin/log_handler_test" "--gtest_filter=ip_log_test.logHandlerTest" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"ip_log_test.logHandlerTest" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ip_log_test.logHandlerTest
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ip_log_test
+[ RUN      ] ip_log_test.logHandlerTest
+[2020-05-13 23:43:41.761039] [0x00007fe4b8093740] [trace]   test log message[IP: 127.0.0.1] 
+[2020-05-13 23:43:41.761054] [0x00007fe4b8093740] [debug]   test log message[IP: 127.0.0.1] 
+[2020-05-13 23:43:41.761062] [0x00007fe4b8093740] [info]    test log message[IP: 127.0.0.1] 
+[2020-05-13 23:43:41.761069] [0x00007fe4b8093740] [warning] test log message[IP: 127.0.0.1] 
+[2020-05-13 23:43:41.761075] [0x00007fe4b8093740] [error]   test log message[IP: 127.0.0.1] 
+[2020-05-13 23:43:41.761081] [0x00007fe4b8093740] [fatal]   test log message[IP: 127.0.0.1] 
+[2020-05-13 23:43:41.761087] [0x00007fe4b8093740] [error]   Logging error, log_type was not a valid number.
+[2020-05-13 23:43:41.761093] [0x00007fe4b8093740] [error]   Logging error, log_type was not a valid number.
+[       OK ] ip_log_test.logHandlerTest (1 ms)
+[----------] 1 test from ip_log_test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ip_log_test.logHandlerTest" end time: May 13 23:43 UTC
+"ip_log_test.logHandlerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: mime_type_test.mime_types_test_1
+8/11 Test: mime_type_test.mime_types_test_1
+Command: "/usr/src/projects/gerrit-masters/build/bin/mime_type_test" "--gtest_filter=mime_type_test.mime_types_test_1" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"mime_type_test.mime_types_test_1" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = mime_type_test.mime_types_test_1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from mime_type_test
+[ RUN      ] mime_type_test.mime_types_test_1
+[       OK ] mime_type_test.mime_types_test_1 (0 ms)
+[----------] 1 test from mime_type_test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"mime_type_test.mime_types_test_1" end time: May 13 23:43 UTC
+"mime_type_test.mime_types_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: request_validation_test.request_test_01
+9/11 Test: request_validation_test.request_test_01
+Command: "/usr/src/projects/gerrit-masters/build/bin/request_validation_test" "--gtest_filter=request_validation_test.request_test_01" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"request_validation_test.request_test_01" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = request_validation_test.request_test_01
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from request_validation_test
+[ RUN      ] request_validation_test.request_test_01
+[       OK ] request_validation_test.request_test_01 (1 ms)
+[----------] 1 test from request_validation_test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"request_validation_test.request_test_01" end time: May 13 23:43 UTC
+"request_validation_test.request_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: request_validation_test.request_test_02
+10/11 Test: request_validation_test.request_test_02
+Command: "/usr/src/projects/gerrit-masters/build/bin/request_validation_test" "--gtest_filter=request_validation_test.request_test_02" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"request_validation_test.request_test_02" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = request_validation_test.request_test_02
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from request_validation_test
+[ RUN      ] request_validation_test.request_test_02
+[       OK ] request_validation_test.request_test_02 (1 ms)
+[----------] 1 test from request_validation_test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"request_validation_test.request_test_02" end time: May 13 23:43 UTC
+"request_validation_test.request_test_02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: handle_dispatch_test.handle_dispatch_test_1
+11/11 Test: handle_dispatch_test.handle_dispatch_test_1
+Command: "/usr/src/projects/gerrit-masters/build/bin/handle_dispatch_test" "--gtest_filter=handle_dispatch_test.handle_dispatch_test_1" "--gtest_also_run_disabled_tests"
+Directory: /usr/src/projects/gerrit-masters/tests
+"handle_dispatch_test.handle_dispatch_test_1" start time: May 13 23:43 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = handle_dispatch_test.handle_dispatch_test_1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from handle_dispatch_test
+[ RUN      ] handle_dispatch_test.handle_dispatch_test_1
+../data/echo_data
+[2020-05-13 23:43:41.809541] [0x00007fa536b5c740] [debug]   ../data/echo_data/index.html
+[2020-05-13 23:43:41.809552] [0x00007fa536b5c740] [info]    Trying to access a file as Echo...[IP: ] 
+[2020-05-13 23:43:41.809907] [0x00007fa536b5c740] [info]    Access Successful.[IP: ] 
+[2020-05-13 23:43:41.809930] [0x00007fa536b5c740] [info]    Response created successfully.[IP: ] 
+[       OK ] handle_dispatch_test.handle_dispatch_test_1 (2 ms)
+[----------] 1 test from handle_dispatch_test (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"handle_dispatch_test.handle_dispatch_test_1" end time: May 13 23:43 UTC
+"handle_dispatch_test.handle_dispatch_test_1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 13 23:43 UTC

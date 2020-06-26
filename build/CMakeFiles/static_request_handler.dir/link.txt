@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstatic_request_handler.a  CMakeFiles/static_request_handler.dir/src/static_request_handler.cc.o
+/usr/bin/ranlib libstatic_request_handler.a

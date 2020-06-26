@@ -1,0 +1,2 @@
+/usr/bin/ar qc libserver_configuration.a  CMakeFiles/server_configuration.dir/src/server_configuration.cc.o
+/usr/bin/ranlib libserver_configuration.a

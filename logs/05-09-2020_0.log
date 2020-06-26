@@ -1,0 +1,20 @@
+[2020-05-09 03:00:37 UTC] [0x00007f3e68cf3740] <info> : Parsing configuration file...
+[2020-05-09 03:00:37 UTC] [0x00007f3e68cf3740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-09 03:00:37 UTC] [0x00007f3e68cf3740] <info> : Server has been started.
+[2020-05-09 03:00:44 UTC] [0x00007f3e68cf3740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-09 03:00:52 UTC] [0x00007f3e68cf3740] <info> : Trying to access a file as Static...[IP: 127.0.0.1] 
+[2020-05-09 03:00:52 UTC] [0x00007f3e68cf3740] <info> : Access Successful.[IP: 127.0.0.1] 
+[2020-05-09 03:00:52 UTC] [0x00007f3e68cf3740] <info> : Response created successfully.[IP: 127.0.0.1] 
+[2020-05-09 03:00:52 UTC] [0x00007f3e68cf3740] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-09 03:00:52 UTC] [0x00007f3e68cf3740] <info> : Request info: method: GET, uri: //[IP: 127.0.0.1] 
+[2020-05-09 03:00:52 UTC] [0x00007f3e68cf3740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-09 03:00:52 UTC] [0x00007f3e68cf3740] <info> : Successfully closed connection with a client.
+[2020-05-09 03:01:04 UTC] [0x00007f3e68cf3740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-09 03:01:17 UTC] [0x00007f3e68cf3740] <info> : Trying to access a file as Static...[IP: 127.0.0.1] 
+[2020-05-09 03:01:17 UTC] [0x00007f3e68cf3740] <error> : The request is not found (404)[IP: 127.0.0.1] 
+[2020-05-09 03:01:17 UTC] [0x00007f3e68cf3740] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-09 03:01:17 UTC] [0x00007f3e68cf3740] <info> : Request info: method: GET, uri: /asdf/a[IP: 127.0.0.1] 
+[2020-05-09 03:01:17 UTC] [0x00007f3e68cf3740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-09 03:01:17 UTC] [0x00007f3e68cf3740] <info> : Successfully closed connection with a client.
+[2020-05-09 03:01:35 UTC] [0x00007f3e68cf3740] <info> : Closing server...
+[2020-05-09 03:01:35 UTC] [0x00007f3e68cf3740] <info> : Server successfully closed.

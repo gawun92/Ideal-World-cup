@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/html_parser.h
+string
+-
+
+/usr/src/projects/gerrit-masters/src/html_parser.cc
+html_parser.h
+/usr/src/projects/gerrit-masters/src/html_parser.h
+string
+-
+iostream
+-
+regex
+-
+

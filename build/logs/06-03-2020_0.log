@@ -1,0 +1,68 @@
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <info> : Parsing configuration file...
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <fatal> : Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_END_BLOCK
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : port is: 8080
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /echo
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: EchoHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /static
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: StaticHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /itwc_static
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: StaticHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /status
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: StatusHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /ucla
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: ReverseProxyHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /columbia
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: ReverseProxyHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /health
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: HealthHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : url is: /itwc
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : handler is: ITWCHandler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <info> : Parsing completed, starting server at port number 8080
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: ../data/echo_data
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: ../data/static_data
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: ../data/ITWC
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: 
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <error> : Initialized proxy handler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: 
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <error> : Initialized proxy handler
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: 
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: 
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: ../data/ITWC
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <debug> : Root path: ../data/echo_data
+[2020-06-03 08:35:05 UTC] [0x00007fb000145740] <info> : Server has been started.
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <info> : Start session
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <info> : Connection established with a client.
+[2020-06-03 08:35:19 UTC] [0x00007faffcfd7700] <info> : Start session
+[2020-06-03 08:35:19 UTC] [0x00007faffcfd7700] <info> : Connection established with a client.
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <debug> : START /status
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <info> : [Message] Response created successfully. [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: status, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <debug> : Incremented status number of handler
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <debug> : Added 200 to the code map
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <info> : This is a valid request.
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <info> : Request info: method: GET, uri: /status
+[2020-06-03 08:35:19 UTC] [0x00007faffefdb700] <info> : Successfully closed connection with a client.
+[2020-06-03 08:35:31 UTC] [0x00007faffe7da700] <info> : Successfully closed connection with a client.
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : Start session
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : Connection established with a client.
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : Start session
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : Connection established with a client.
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <debug> : START /status/itwc/
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : [Message] Response created successfully. [ResponseMetrics] (1)RESPONSE CODE: 200, (2)REQUEST HANDLER: status, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <debug> : Incremented status number of handler
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <debug> : incremented 200 in the code map
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : This is a valid request.
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : Request info: method: GET, uri: /status/itwc/
+[2020-06-03 08:35:31 UTC] [0x00007faffbfd5700] <info> : Successfully closed connection with a client.
+[2020-06-03 08:35:38 UTC] [0x00007faffdfd9700] <info> : Start session
+[2020-06-03 08:35:38 UTC] [0x00007faffdfd9700] <info> : Connection established with a client.
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <debug> : START /itwc/
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <debug> : Incremented ITWC number of handler
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <info> : ITWC handler accessing front.html
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <debug> : und calls: 
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <debug> : Added 404 to the code map
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <debug> : Added /itwc/html/front.html to url map
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <error> : [Message] invalid url received - file does not exist [ResponseMetrics] (1)RESPONSE CODE: 404, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <info> : This is a valid request.
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <info> : Request info: method: GET, uri: /itwc/
+[2020-06-03 08:35:38 UTC] [0x00007faffefdb700] <info> : Successfully closed connection with a client.
+[2020-06-03 08:38:00 UTC] [0x00007faffe7da700] <info> : Successfully closed connection with a client.

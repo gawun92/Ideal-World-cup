@@ -1,0 +1,7 @@
+add_test( request_validation_test.request_test_01 /usr/src/projects/gerrit-masters/build/bin/request_validation_test [==[--gtest_filter=request_validation_test.request_test_01]==] --gtest_also_run_disabled_tests)
+set_tests_properties( request_validation_test.request_test_01 PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/request_validation_test)
+add_test( request_validation_test.request_test_02 /usr/src/projects/gerrit-masters/build/bin/request_validation_test [==[--gtest_filter=request_validation_test.request_test_02]==] --gtest_also_run_disabled_tests)
+set_tests_properties( request_validation_test.request_test_02 PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/request_validation_test)
+add_test( request_validation_test.InvalidRequestTest /usr/src/projects/gerrit-masters/build/bin/request_validation_test [==[--gtest_filter=request_validation_test.InvalidRequestTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( request_validation_test.InvalidRequestTest PROPERTIES WORKING_DIRECTORY /usr/src/projects/gerrit-masters/tests/request_validation_test)
+set( request_validation_test_TESTS request_validation_test.request_test_01 request_validation_test.request_test_02 request_validation_test.InvalidRequestTest)

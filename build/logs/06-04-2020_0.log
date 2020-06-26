@@ -1,0 +1,84 @@
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <info> : Parsing configuration file...
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <fatal> : Bad transition from TOKEN_TYPE_NORMAL to TOKEN_TYPE_END_BLOCK
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : port is: 8080
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /echo
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: EchoHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /static
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: StaticHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /itwc_static
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: StaticHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /status
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: StatusHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /ucla
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: ReverseProxyHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /columbia
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: ReverseProxyHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /health
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: HealthHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : url is: /itwc
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : handler is: ITWCHandler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <info> : Parsing completed, starting server at port number 8080
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: ../data/echo_data
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: ../data/static_data
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: ../data/ITWC
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: 
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <error> : Initialized proxy handler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: 
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <error> : Initialized proxy handler
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: 
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: 
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: ../data/ITWC
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <debug> : Root path: ../data/echo_data
+[2020-06-04 02:15:11 UTC] [0x00007f48f9603740] <info> : Server has been started.
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <info> : Start session
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <info> : Connection established with a client.
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <debug> : START /
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <debug> : Incremented 404 number of handler
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <debug> : und calls: 
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <debug> : Added 404 to the code map
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 404, (2)REQUEST HANDLER: not found, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <info> : This is a valid request.
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <info> : Request info: method: GET, uri: /
+[2020-06-04 02:15:19 UTC] [0x00007f48f7c98700] <info> : Successfully closed connection with a client.
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <info> : Start session
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <info> : Connection established with a client.
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <debug> : START /apple-touch-icon-precomposed.png
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <debug> : Incremented 404 number of handler
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <debug> : und calls: 
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <debug> : incremented 404 in the code map
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 404, (2)REQUEST HANDLER: not found, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <info> : This is a valid request.
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <info> : Request info: method: GET, uri: /apple-touch-icon-precomposed.png
+[2020-06-04 02:15:19 UTC] [0x00007f48f7497700] <info> : Successfully closed connection with a client.
+[2020-06-04 02:15:19 UTC] [0x00007f48f6495700] <info> : Start session
+[2020-06-04 02:15:19 UTC] [0x00007f48f6495700] <info> : Connection established with a client.
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <debug> : START /apple-touch-icon.png
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <debug> : Incremented 404 number of handler
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <debug> : und calls: 
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <debug> : incremented 404 in the code map
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 404, (2)REQUEST HANDLER: not found, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <info> : This is a valid request.
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <info> : Request info: method: GET, uri: /apple-touch-icon.png
+[2020-06-04 02:15:19 UTC] [0x00007f48f8499700] <info> : Successfully closed connection with a client.
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <info> : Start session
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <info> : Connection established with a client.
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <debug> : START /
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <debug> : Incremented 404 number of handler
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <debug> : und calls: 
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <debug> : incremented 404 in the code map
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPONSE CODE: 404, (2)REQUEST HANDLER: not found, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <info> : This is a valid request.
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <info> : Request info: method: GET, uri: /
+[2020-06-04 02:15:22 UTC] [0x00007f48f6c96700] <info> : Successfully closed connection with a client.
+[2020-06-04 02:15:24 UTC] [0x00007f48f5493700] <info> : Start session
+[2020-06-04 02:15:24 UTC] [0x00007f48f5493700] <info> : Connection established with a client.
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <debug> : START /itwc/html/main.html
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <debug> : Incremented ITWC number of handler
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <info> : ITWC handler accessing front.html
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <debug> : und calls: 
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <debug> : incremented 404 in the code map
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <debug> : Added /itwc/html/main.html to url map
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <error> : [Message] invalid url received - file does not exist [ResponseMetrics] (1)RESPONSE CODE: 404, (2)REQUEST HANDLER: ITWC, (3)IP_ADDRESS: 172.17.0.1
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <info> : This is a valid request.
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <info> : Request info: method: GET, uri: /itwc/html/main.html
+[2020-06-04 02:15:24 UTC] [0x00007f48f6495700] <info> : Successfully closed connection with a client.

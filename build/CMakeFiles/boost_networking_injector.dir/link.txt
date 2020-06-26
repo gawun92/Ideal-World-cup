@@ -1,0 +1,2 @@
+/usr/bin/ar qc libboost_networking_injector.a  CMakeFiles/boost_networking_injector.dir/src/boost_networking_injector.cc.o
+/usr/bin/ranlib libboost_networking_injector.a

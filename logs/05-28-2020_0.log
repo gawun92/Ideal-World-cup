@@ -1,0 +1,41 @@
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <info> : Parsing configuration file...
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <debug> : port is: 8081
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <debug> : url is: /echo
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <debug> : handler is: EchoHandler
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <debug> : url is: /static
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <debug> : handler is: StaticHandler
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <debug> : url is: /status
+[2020-05-28 10:13:22 UTC] [0x00007f0f3cfe4740] <debug> : handler is: StatusHandler
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : url is: /reverse
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : handler is: ReverseProxyHandler
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : url is: /columbia
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : handler is: ReverseProxyHandler
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : Root path: ../data/echo_data
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : Root path: ../data/static_data
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : Root path: 
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <error> : Initialized proxy handler
+[2020-05-28 10:13:22 UTC] [0x00007f56e37a0740] <debug> : Root path: 
+[20[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <info> : Start session
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <info> : Connection established with a client.
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <debug> : START /static/index.html
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <debug> : Incremented static number of handler
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <info> : Trying to access a file as Static...
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <info> : Access Successful.
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <debug> : Added 200 to the code map
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <debug> : Added /static/index.html to url map
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPNOSE CODE: 200, (2)REQUEST HANDLER: static, (3)IP_ADDRESS: 127.0.0.1
+[2020-05-28 10:13:23 UTC] [0x00007f0f3be7a700] <info> : This is [2020-05-28 10:13:23 UTC] [0x00007f56e1e35700] <info> : Reading done
+[2020-05-28 10:13:23 UTC] [0x00007f56e1e35700] <error> : Server response was 200 | location: 
+[2020-05-28 10:13:23 UTC] [0x00007f56e1e35700] <debug> : Increm[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : Start session
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : Connection established with a client.
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <debug> : START /static/index.html
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <debug> : Incremented static number of handler
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : Trying to access a file as Static...
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : Access Successful.
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <debug> : incremented 200 in the code map
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <debug> : incremented /static/index.html in the url map
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : [Message] Response created successfully [ResponseMetrics] (1)RESPNOSE CODE: 200, (2)REQUEST HANDLER: static, (3)IP_ADDRESS: 127.0.0.1
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : This is a valid request.
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : Request info: method: GET, uri: /static/index.html
+[2020-05-28 10:13:23 UTC] [0x00007f0f3b679700] <info> : Successfully closed connection with a client.

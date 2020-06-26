@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhealth_request_handler.a  CMakeFiles/health_request_handler.dir/src/health_request_handler.cc.o
+/usr/bin/ranlib libhealth_request_handler.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libecho_request_handler.a  CMakeFiles/echo_request_handler.dir/src/echo_request_handler.cc.o
+/usr/bin/ranlib libecho_request_handler.a

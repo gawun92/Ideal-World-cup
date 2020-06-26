@@ -1,0 +1,12 @@
+Parser_test_constructor.SimpleConfig 2 0.00237155
+ParserTest.parser_test_syntax 2 0.00674951
+ParserTest.parser_test_io 2 0.006446
+setup_log_test.logHandlerTest 2 0.00180399
+init_log_test.logHandlerTest 2 0.00201643
+simple_log_test.logHandlerTest 2 0.00176942
+ip_log_test.logHandlerTest 2 0.00217545
+mime_type_test.mime_types_test_1 2 0.00177097
+request_validation_test.request_test_01 2 0.00252259
+request_validation_test.request_test_02 2 0.00307095
+handle_dispatch_test.handle_dispatch_test_1 2 0.00243747
+---

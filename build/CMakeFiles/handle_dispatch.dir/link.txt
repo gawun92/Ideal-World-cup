@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhandle_dispatch.a  CMakeFiles/handle_dispatch.dir/src/handle_dispatch.cc.o
+/usr/bin/ranlib libhandle_dispatch.a

@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/gerrit-masters/build/make_response_test[1]_tests.cmake")
+  include("/usr/src/projects/gerrit-masters/build/make_response_test[1]_tests.cmake")
+else()
+  add_test(make_response_test_NOT_BUILT make_response_test_NOT_BUILT)
+endif()

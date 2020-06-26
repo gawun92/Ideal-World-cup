@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Type: plain/text
+Content-Length: 88
+
+GET /docs/index.html HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.58.0
+Accept: */*
+

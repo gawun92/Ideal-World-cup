@@ -1,0 +1,46 @@
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <info> : Parsing configuration file...
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <debug> : port is: 8080
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <debug> : url is: /junya
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <debug> : handler is: EchoHandler
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <debug> : path is: ../data/static_data
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <debug> : url is: /echo
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <debug> : handler is: StaticHandler
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <debug> : path is: ../data/echo_data
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <info> : Parsing completed, starting server at port number 8080
+[2020-05-10 10:23:02 UTC] [0x00007f64c183d740] <info> : Server has been started.
+[2020-05-10 10:23:17 UTC] [0x00007f64c183d740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-10 10:23:38 UTC] [0x00007f64c183d740] <info> : Trying to access a file as Static...[IP: 127.0.0.1] 
+[2020-05-10 10:23:38 UTC] [0x00007f64c183d740] <error> : invalid url received. (file does not exist)[IP: 127.0.0.1] 
+[2020-05-10 10:23:38 UTC] [0x00007f64c183d740] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-10 10:23:38 UTC] [0x00007f64c183d740] <info> : Request info: method: GET, uri: /static/index.html[IP: 127.0.0.1] 
+[2020-05-10 10:23:38 UTC] [0x00007f64c183d740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-10 10:23:38 UTC] [0x00007f64c183d740] <info> : Successfully closed connection with a client.
+[2020-05-10 10:24:19 UTC] [0x00007f64c183d740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-10 10:24:35 UTC] [0x00007f64c183d740] <error> : This is not a valid request.[IP: 127.0.0.1] 
+[2020-05-10 10:24:35 UTC] [0x00007f64c183d740] <info> : Request info: method: GET, uri: static/index.html[IP: 127.0.0.1] 
+[2020-05-10 10:24:35 UTC] [0x00007f64c183d740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-10 10:24:35 UTC] [0x00007f64c183d740] <info> : Successfully closed connection with a client.
+[2020-05-10 10:24:37 UTC] [0x00007f64c183d740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-10 10:25:00 UTC] [0x00007f64c183d740] <error> : This is not a valid request.[IP: 127.0.0.1] 
+[2020-05-10 10:25:00 UTC] [0x00007f64c183d740] <info> : Request info: method: GET, uri: static/index.html[IP: 127.0.0.1] 
+[2020-05-10 10:25:00 UTC] [0x00007f64c183d740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-10 10:25:00 UTC] [0x00007f64c183d740] <info> : Successfully closed connection with a client.
+[2020-05-10 10:25:04 UTC] [0x00007f64c183d740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-10 10:25:23 UTC] [0x00007f64c183d740] <error> : This is not a valid request.[IP: 127.0.0.1] 
+[2020-05-10 10:25:23 UTC] [0x00007f64c183d740] <info> : Request info: method: GET, uri: /static/index.html[IP: 127.0.0.1] 
+[2020-05-10 10:25:23 UTC] [0x00007f64c183d740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-10 10:25:23 UTC] [0x00007f64c183d740] <info> : Successfully closed connection with a client.
+[2020-05-10 10:26:03 UTC] [0x00007f64c183d740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-10 10:26:14 UTC] [0x00007f64c183d740] <info> : Trying to access a file as Static...[IP: 127.0.0.1] 
+[2020-05-10 10:26:14 UTC] [0x00007f64c183d740] <error> : invalid url received. (file does not exist)[IP: 127.0.0.1] 
+[2020-05-10 10:26:14 UTC] [0x00007f64c183d740] <info> : This is a valid request.[IP: 127.0.0.1] 
+[2020-05-10 10:26:14 UTC] [0x00007f64c183d740] <info> : Request info: method: GET, uri: /static/test.jpg[IP: 127.0.0.1] 
+[2020-05-10 10:26:14 UTC] [0x00007f64c183d740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-10 10:26:14 UTC] [0x00007f64c183d740] <info> : Successfully closed connection with a client.
+[2020-05-10 10:27:17 UTC] [0x00007f64c183d740] <info> : Connection established with a client.[IP: 127.0.0.1] 
+[2020-05-10 10:27:45 UTC] [0x00007f64c183d740] <error> : This is not a valid request.[IP: 127.0.0.1] 
+[2020-05-10 10:27:45 UTC] [0x00007f64c183d740] <info> : Request info: method: , uri: [IP: 127.0.0.1] 
+[2020-05-10 10:27:45 UTC] [0x00007f64c183d740] <info> : Closing connection with a client...[IP: 127.0.0.1] 
+[2020-05-10 10:27:45 UTC] [0x00007f64c183d740] <info> : Successfully closed connection with a client.
+[2020-05-10 23:12:04 UTC] [0x00007f64c183d740] <info> : Closing server...
+[2020-05-10 23:12:04 UTC] [0x00007f64c183d740] <info> : Server successfully closed.

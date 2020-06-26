@@ -1,0 +1,5 @@
+# we have more open brackets
+# wrong syntax
+server {
+    location / {
+}

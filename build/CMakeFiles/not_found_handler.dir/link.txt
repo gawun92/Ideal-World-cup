@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnot_found_handler.a  CMakeFiles/not_found_handler.dir/src/not_found_handler.cc.o
+/usr/bin/ranlib libnot_found_handler.a
